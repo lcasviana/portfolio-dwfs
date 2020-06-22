@@ -12,31 +12,31 @@
   --cor--cinza-f9: #f9f9f9;
   --cor--cinza-ff: #ffffff;
 
-  --cor--azul0: #AE37ED;
-  --cor--azul1: #9714DD;
-  --cor--azul2: #AA2EEC;
-  --cor--azul3: #64176C;
-  --cor--azul4: #511257;
-  --cor--azul5: #8C1F97;
-  --cor--azul6: #7917AE;
-  --cor--azul7: #7917AE;
-  --cor--azul8: #292729;
-  --cor--azul9: #120414;
-  --cor--azula: #F0EAEF;
-  --cor--azulb: #FDF4FC;
-  --cor--azulc: #3D0E42;
-  --cor--azuld: #160518;
-  --cor--azule: #F2DFFC;
-  --cor--azulf: #3E3440;
-  --cor--azulg: #F5DCF8;
-  --cor--azulh: #FDF5FD;
-  --cor--azuli: #3F2C3C;
-  --cor--azulj: #B4A8B1;
-  --cor--azulk: #F7E4F9;
-  --cor--azull: #806F7C;
-  --cor--azulm: #31212F;
-  --cor--azuln: #1e191e77;
-  --cor--azulo: #E7C3FA;
+  --cor--roxo0: #AE37ED;
+  --cor--roxo1: #9714DD;
+  --cor--roxo2: #AA2EEC;
+  --cor--roxo3: #64176C;
+  --cor--roxo4: #511257;
+  --cor--roxo5: #8C1F97;
+  --cor--roxo6: #7917AE;
+  --cor--roxo7: #7917AE;
+  --cor--roxo8: #292729;
+  --cor--roxo9: #120414;
+  --cor--roxoa: #F0EAEF;
+  --cor--roxob: #FDF4FC;
+  --cor--roxoc: #3D0E42;
+  --cor--roxod: #160518;
+  --cor--roxoe: #F2DFFC;
+  --cor--roxof: #3E3440;
+  --cor--roxog: #F5DCF8;
+  --cor--roxoh: #FDF5FD;
+  --cor--roxoi: #3F2C3C;
+  --cor--roxoj: #B4A8B1;
+  --cor--roxok: #F7E4F9;
+  --cor--roxol: #806F7C;
+  --cor--roxom: #31212F;
+  --cor--roxon: #1e191e77;
+  --cor--roxoo: #E7C3FA;
 }
 
 /*--------------------------------------------------------------
@@ -44,15 +44,15 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: var(--cor--azul8);
+  color: var(--cor--roxo8);
 }
 
 a {
-  color: var(--cor--azul1);
+  color: var(--cor--roxo1);
 }
 
 a:hover {
-  color: var(--cor--azul0);
+  color: var(--cor--roxo0);
   text-decoration: none;
 }
 
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: var(--cor--azul1);
+  background: var(--cor--roxo1);
   color: var(--cor--cinza-ff);
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: var(--cor--cinza-ff);
-  background: var(--cor--azul2);
+  background: var(--cor--roxo2);
   transition: background 0.2s ease-in-out;
 }
 
@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: var(--cor--azul9);
+  background: var(--cor--roxo9);
   overflow-y: auto;
 }
 
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid var(--cor--azuli);
+  border: 8px solid var(--cor--roxoi);
 }
 
 #header .profile h1 {
@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background:  var(--cor--azulm);
+  background:  var(--cor--roxom);
   color: var(--cor--cinza-ff);
   line-height: 1;
   padding: 8px 0;
@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: var(--cor--azul1);
+  background: var(--cor--roxo1);
   color: var(--cor--cinza-ff);
   text-decoration: none;
 }
@@ -185,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: var(--cor--azulj);
+  color: var(--cor--roxoj);
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a i {
   font-size: 24px;
   padding-right: 8px;
-  color: var(--cor--azull);
+  color: var(--cor--roxol);
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
-  color: var(--cor--azul1);
+  color: var(--cor--roxo1);
 }
 
 /* Mobile Navigation */
@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: var(--cor--azul1);
+  color: var(--cor--roxo1);
 }
 
 .mobile-nav-active {
@@ -251,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background:  var(--cor--azuln);
+  background:  var(--cor--roxon);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -285,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--cor--cinza-ff);
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid var(--cor--azul1);
+  border-bottom: 3px solid var(--cor--roxo1);
 }
 
 @media (min-width: 1024px) {
@@ -315,7 +315,7 @@ section {
 }
 
 .section-bg {
-  background: var(--cor--azulh);
+  background: var(--cor--roxoh);
 }
 
 .section-title {
@@ -328,7 +328,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: var(--cor--azul3);
+  color: var(--cor--roxo3);
 }
 
 .section-title h2::after {
@@ -337,7 +337,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: var(--cor--azul1);
+  background: var(--cor--roxo1);
   bottom: 0;
   left: 0;
 }
@@ -352,7 +352,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: var(--cor--azul3);
+  color: var(--cor--roxo3);
 }
 
 .about .content ul {
@@ -367,7 +367,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: var(--cor--azul1);
+  color: var(--cor--roxo1);
 }
 
 .about .content p:last-child {
@@ -389,7 +389,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: var(--cor--azul1);
+  color: var(--cor--roxo1);
   float: left;
 }
 
@@ -398,7 +398,7 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: var(--cor--azuld);
+  color: var(--cor--roxod);
   margin-left: 60px;
 }
 
@@ -407,21 +407,21 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: var(--cor--azul4);
+  color: var(--cor--roxo4);
 }
 
 .facts .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: var(--cor--azul4);
+  color: var(--cor--roxo4);
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
 .facts .count-box a:hover {
-  color: var(--cor--azul5);
+  color: var(--cor--roxo5);
 }
 
 /*--------------------------------------------------------------
@@ -440,7 +440,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: var(--cor--azuld);
+  color: var(--cor--roxod);
 }
 
 .skills .progress .skill .val {
@@ -449,14 +449,14 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: var(--cor--azulg);
+  background: var(--cor--roxog);
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: var(--cor--azul1);
+  background-color: var(--cor--roxo1);
 }
 
 /*--------------------------------------------------------------
@@ -467,13 +467,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: var(--cor--azuld);
+  color: var(--cor--roxod);
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid var(--cor--azul5);
+  border-left: 2px solid var(--cor--roxo5);
   position: relative;
 }
 
@@ -483,13 +483,13 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: var(--cor--azuld);
+  color: var(--cor--roxod);
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: var(--cor--azulk);
+  background: var(--cor--roxok);
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -517,7 +517,7 @@ section {
   left: -9px;
   top: 0;
   background: var(--cor--cinza-ff);
-  border: 2px solid var(--cor--azul5);
+  border: 2px solid var(--cor--roxo5);
 }
 
 /*--------------------------------------------------------------
@@ -545,13 +545,13 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: var(--cor--azul8);
+  color: var(--cor--roxo8);
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: var(--cor--azul1);
+  color: var(--cor--roxo1);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -594,17 +594,17 @@ section {
   color: var(--cor--cinza-ff);
   font-size: 28px;
   text-align: center;
-  background: var(--cor--azul6);
+  background: var(--cor--roxo6);
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: var(--cor--azul7);
+  background: var(--cor--roxo7);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
-  border-left: 1px solid var(--cor--azul0);
+  border-left: 1px solid var(--cor--roxo0);
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -634,10 +634,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: var(--cor--azul1);
+  background: var(--cor--roxo1);
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid var(--cor--azul1);
+  border: 1px solid var(--cor--roxo1);
 }
 
 .services .icon i {
@@ -650,7 +650,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: var(--cor--azul1);
+  color: var(--cor--roxo1);
 }
 
 .services .title {
@@ -661,11 +661,11 @@ section {
 }
 
 .services .title a {
-  color: var(--cor--azulf);
+  color: var(--cor--roxof);
 }
 
 .services .title a:hover {
-  color: var(--cor--azul1);
+  color: var(--cor--roxo1);
 }
 
 .services .description {
@@ -703,7 +703,7 @@ section {
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color:  var(--cor--azulo);
+  color:  var(--cor--roxoo);
   font-size: 26px;
 }
 
@@ -758,7 +758,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: var(--cor--azul1) !important;
+  background-color: var(--cor--roxo1) !important;
 }
 
 @media (max-width: 767px) {
@@ -783,11 +783,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: var(--cor--azul1);
+  color: var(--cor--roxo1);
   float: left;
   width: 44px;
   height: 44px;
-  background: var(--cor--azule);
+  background: var(--cor--roxoe);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -800,14 +800,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: var(--cor--azuld);
+  color: var(--cor--roxod);
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: var(--cor--azul3);
+  color: var(--cor--roxo3);
 }
 
 .contact .info .email p {
@@ -834,12 +834,12 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: var(--cor--azul1);
+  background: var(--cor--roxo1);
   color: var(--cor--cinza-ff);
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: var(--cor--azul1);
+  background: var(--cor--roxo1);
   color: var(--cor--cinza-ff);
 }
 
@@ -919,7 +919,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: var(--cor--azul1);
+  background: var(--cor--roxo1);
   border: 0;
   padding: 10px 24px;
   color: var(--cor--cinza-ff);
@@ -928,7 +928,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: var(--cor--azul0);
+  background: var(--cor--roxo0);
 }
 
 @-webkit-keyframes animate-loading {
@@ -978,7 +978,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: var(--cor--azulc);
+  color: var(--cor--roxoc);
   content: "/";
 }
 
@@ -1025,7 +1025,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: var(--cor--azul1) !important;
+  background-color: var(--cor--roxo1) !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1086,14 +1086,14 @@ section {
 --------------------------------------------------------------*/
 #footer {
   padding: 15px;
-  color: var(--cor--azulb);
+  color: var(--cor--roxob);
   font-size: 14px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: var(--cor--azul9);
+  background: var(--cor--roxo9);
 }
 
 #footer .copyright {
@@ -1104,7 +1104,7 @@ section {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: var(--cor--azula);
+  color: var(--cor--roxoa);
 }
 
 @media (max-width: 1199px) {
